@@ -1,4 +1,5 @@
 .screen-header{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,13 +15,13 @@
     margin-left: 25px;
 }
 
-.screen-header-optional{
+.screen-header__optional{
     display: block;
     width: 5px;
     height: 5px;
     border-radius: 50%;
     background-color: tomato;
-    position: relative;
-    left: 70px;
-    top: -23px;
+    position: absolute;
+    top: 41px;
+    right: 18px;
 }
